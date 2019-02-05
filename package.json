@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "yarn run clean && gatsby develop",
     "build": "yarn run clean && gatsby build",
-    "deploy": "yarn run clean && gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "rm -rf public && npm run build && cd public && git init && git add . && git commit -m 'Initial commit' && git remote add origin git@github.com:bhavin-prajapati/bhavin-prajapati.github.io.git && git push --force origin master:gh-pages",
     "clean": "rimraf .cache public",
     "lint:js": "eslint --cache --ext .js,.jsx --ignore-pattern public .",
     "lint:scss": "stylelint \"src/**/*.scss\"",
