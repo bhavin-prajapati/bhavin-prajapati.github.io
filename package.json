@@ -7,7 +7,7 @@
     "develop": "yarn run clean && gatsby develop",
     "build": "yarn run clean && gatsby build",
     "build-production": "yarn run clean && gatsby build --prefix-paths && gh-pages -d public",
-    "deploy": "rm -rf public && yarn run build-production && cd public && git init && git add . && git commit -m 'Initial commit' && git remote add origin git@github.com:bhavin-prajapati/bhavin-prajapati.github.io.git && git push --force origin master:gh-pages",
+    "deploy": "rm -rf public && yarn run build-production && cd public && git init && git add . && git commit -m 'Initial commit' && git remote add origin git@github.com:bhavin-prajapati/bhavin-prajapati.github.io.git && git push --force origin master",
     "clean": "rimraf .cache public",
     "lint:js": "eslint --cache --ext .js,.jsx --ignore-pattern public .",
     "lint:scss": "stylelint \"src/**/*.scss\"",
