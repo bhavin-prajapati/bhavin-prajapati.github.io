@@ -1,9 +1,9 @@
 {
-  "name": "sup-public",
+  "name": "bhavins-github",
   "private": true,
-  "description": "Ownr's public pages",
+  "description": "BP",
   "version": "0.1.0",
-  "author": "Marissa Colacitti",
+  "author": "Bhavin Prajapati",
   "dependencies": {
     "gatsby": "^2.15.28",
     "gatsby-image": "^2.2.23",
@@ -21,6 +21,7 @@
     "gatsby-source-contentful": "^2.1.44",
     "gatsby-source-filesystem": "^2.1.28",
     "gatsby-transformer-sharp": "^2.2.19",
+    "jest": "^24.9.0",
     "ramda": "^0.26.1",
     "react": "^16.10.1",
     "react-burger-menu": "^2.6.11",
@@ -46,7 +47,7 @@
     "dev": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "serve": "gatsby serve",
-    "deploy": "rm -rf public && yarn run build-production && cd public && git init && git add . && git commit -m 'Initial commit' && git remote add origin git@github.com:bhavin-prajapati/bhavin-prajapati.github.io.git && git push --force origin master"
+    "deploy": "rm -rf public && yarn run build-production && cd public && git init && git add . && git commit -m 'Initial commit' && git remote add origin git@github.com:bhavin-prajapati/bhavin-prajapati.github.io.git && git push --force origin gh-pages"
   },
   "repository": "git@github.com:rbc-ecosystems/sup-public.git"
 }
