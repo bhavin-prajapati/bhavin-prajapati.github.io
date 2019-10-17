@@ -29,7 +29,6 @@ module.exports = {
         icon: 'src/images/favicon.png',
       },
     },
-    'gatsby-plugin-typescript',
     {
       resolve: 'gatsby-source-contentful',
       options: {
@@ -70,13 +69,6 @@ module.exports = {
       resolve: `gatsby-plugin-breadcrumb`,
       options: {
         useSitemap: true,
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-intercom-spa',
-      options: {
-        app_id: process.env.REACT_APP_INTERCOM_APP_ID,
-        include_in_development: true,
       },
     },
   ],
