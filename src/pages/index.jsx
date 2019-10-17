@@ -11,15 +11,9 @@ const IndexPage = props => {
 
 export const pageQuery = graphql`
   query {
-    contentfulPage(pageType: { eq: "homePage" }) {
+    contentfulPage(slug: { eq: "home" }) {
       description
       title
-      showBannerAd
-      ogImage {
-        file {
-          url
-        }
-      }
     }
   }
 `;
