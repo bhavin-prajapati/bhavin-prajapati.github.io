@@ -47,10 +47,9 @@ export default function About() {
       </p>
 
       <p className="text-gray-600 leading-relaxed mb-8">
-        My code tinkering experiments, M&amp;Ms, travels and thoughts on life.
-        With years of experience building scalable systems and leading
-        engineering teams, I focus on creating software that makes a real
-        difference.
+        My code tinkering experiments, travels and thoughts on life.
+        With over 15 years of experience building scalable systems and leading
+        teams, I focus on creating software that makes a real difference.
       </p>
 
       <h3 className="text-lg font-semibold mb-4">Skills &amp; Expertise</h3>
