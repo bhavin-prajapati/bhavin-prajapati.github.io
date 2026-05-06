@@ -1,8 +1,8 @@
 const contacts = [
   {
     label: 'Email',
-    value: 'bhavin@example.com',
-    href: 'mailto:bhavin@example.com',
+    value: 'bhavin.prajapati@gmail.com',
+    href: 'mailto:bhavin.prajapati@gmail.com',
   },
   {
     label: 'GitHub',
@@ -11,8 +11,8 @@ const contacts = [
   },
   {
     label: 'LinkedIn',
-    value: 'linkedin.com/in/bhavin-prajapati',
-    href: 'https://linkedin.com/in/bhavin-prajapati',
+    value: 'linkedin.com/in/bhavinprajapati-86',
+    href: 'https://www.linkedin.com/in/bhavinprajapati-86/',
   },
 ];
 

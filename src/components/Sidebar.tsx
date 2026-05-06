@@ -27,9 +27,9 @@ export default function Sidebar() {
           />
           <h1 className="text-lg font-semibold">Bhavin Prajapati</h1>
           <p className="text-xs text-gray-400 mt-1 leading-relaxed">
-            Visionary Coder, Father,
+            Visionary Software Engineer, Consultant, Code Tinkerer and Father of Two.
             <br />
-            Astute Observationist
+            I build innovative solutions that blend creativity with technical expertise, crafting seamless digital experiences that impress users and drive business success.
           </p>
         </div>
 
@@ -74,7 +74,7 @@ export default function Sidebar() {
               </svg>
             </a>
             <a
-              href="https://linkedin.com/in/bhavin-prajapati"
+              href="https://www.linkedin.com/in/bhavinprajapati-86"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-gray-300 transition-colors"
@@ -86,7 +86,7 @@ export default function Sidebar() {
             </a>
           </div>
           <p className="text-xs text-gray-600 text-center">
-            © 2024 All rights reserved.
+            © 2026 All rights reserved.
           </p>
         </div>
       </div>

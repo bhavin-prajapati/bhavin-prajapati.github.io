@@ -8,7 +8,7 @@ import {
 
 const experiences = [
   {
-    title: 'Senior Software Engineer',
+    title: 'Connected TV Developer / Consultant',
     company: 'Acme Corp',
     period: '2021 — Present',
     description:

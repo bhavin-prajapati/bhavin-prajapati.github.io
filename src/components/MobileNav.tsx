@@ -102,7 +102,7 @@ export default function MobileNav() {
                   Bhavin Prajapati
                 </h2>
                 <p className="text-xs text-gray-400 mt-1">
-                  Visionary Coder, Father, Astute Observationist
+                  Visionary Software Engineer, Consultant, Code Tinkerer and Father of Two. I build innovative solutions that blend creativity with technical expertise, crafting seamless digital experiences that impress users and drive business success.
                 </p>
               </div>
 
