@@ -25,6 +25,7 @@ const experiences = [
     period: 'April 2024 – Dec. 2024',
     description:
       'Took time off for newborn and home renovations. During this period, I also worked on personal projects and contributed to open-source software.',
+      highlights: [],
   },
   {
     title: 'Front-End Developer / Consultant',
