@@ -32,7 +32,7 @@ export default function About() {
         <div>
           <h1 className="text-xl font-bold">Bhavin Prajapati</h1>
           <p className="text-sm text-gray-500">
-            Visionary Coder, Father, Astute Observationist
+            Visionary Software Engineer, Consultant, Code Tinkerer and Father of Two.
           </p>
         </div>
       </div>
@@ -47,13 +47,15 @@ export default function About() {
       </p>
 
       <p className="text-gray-600 leading-relaxed mb-8">
-        My code tinkering experiments, travels and thoughts on life.
-        With over 15 years of experience building scalable systems and leading
-        teams, I focus on creating software that makes a real difference.
+        A seasoned front-end focused software developer with over 15 years of experience working in various
+        industries such as large to mid-size consulting companies and banking. I am a highly results-oriented
+        and versatile professional who excels in developing and implementing mission-critical solutions. I have
+        excellent technical skills enabling me to effectively analyze, design, and implement efficient and
+        production-ready code at a reasonable cost.
       </p>
 
       <h3 className="text-lg font-semibold mb-4">Skills &amp; Expertise</h3>
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-2 mb-10">
         {skills.map((skill) => (
           <span
             key={skill}
@@ -62,6 +64,36 @@ export default function About() {
             {skill}
           </span>
         ))}
+      </div>
+
+      <h3 className="text-lg font-semibold mb-4">Education</h3>
+      <div className="space-y-6">
+        <div>
+          <div className="flex items-start justify-between gap-2">
+            <div>
+              <p className="font-medium text-gray-900">Data Science Certificate Program</p>
+              <p className="text-sm text-gray-500 italic">University of Waterloo, Waterloo, Canada</p>
+            </div>
+            <span className="text-sm text-gray-400 whitespace-nowrap">2024 – 2026</span>
+          </div>
+          <p className="text-sm text-gray-600 mt-1">
+            Completed a four-course certification in Data Science as part of WatSPEED: Foundations of Data
+            Science, Statistics for Data Science, Machine Learning, Big Data Management Systems and Tools.
+          </p>
+        </div>
+        <div>
+          <div className="flex items-start justify-between gap-2">
+            <div>
+              <p className="font-medium text-gray-900">Honors Computer Engineering — Bachelor of Applied Science</p>
+              <p className="text-sm text-gray-500 italic">University of Waterloo, Waterloo, Canada</p>
+            </div>
+            <span className="text-sm text-gray-400 whitespace-nowrap">2005 – 2010</span>
+          </div>
+          <p className="text-sm text-gray-600 mt-1">
+            Artificial Intelligence, Computer Networks and Security, Software Engineering, Database Systems,
+            Real-time Operating Systems, Data Structures and Algorithms, Distributed and Network Computing.
+          </p>
+        </div>
       </div>
     </div>
   );
